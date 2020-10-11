@@ -6,7 +6,7 @@ from io import StringIO
 
 BUCKET_NAME = 'pls-iot'
 KEY_NAME = 'Permission.csv'
-serialnumber = 'abc-002'
+serialnumber = 'abc-005'
 
 s3 = boto3.resource('s3')
 s3obj = s3.Object(BUCKET_NAME, KEY_NAME).get()
